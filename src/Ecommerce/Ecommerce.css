@@ -39,14 +39,22 @@ header ul li a{
 }
 
 .products {
-    height: 430px;
+    height: 440px;
     width: 250px;
     margin-bottom: 1rem;
     border: 1px solid;
    padding: 0.5rem 1rem;
+   background-color: #ccc;
 }
 .products a{
     text-decoration: none;
+}
+.add{
+    background-color: #19c830;
+    color: rgb(230, 30, 16);
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 .ProductImage {

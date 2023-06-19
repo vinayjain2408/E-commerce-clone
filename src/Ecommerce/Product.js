@@ -36,7 +36,7 @@ function Product() {
                             {
                                 (Count.find(item=>item.id===Cartname.id)!==undefined)
                                     ? <p>added to cart</p>
-                                    : <a href='' onClick={(e) => AddtoCart(e, {
+                                    : <a className='add' href='' onClick={(e) => AddtoCart(e, {
                                         id: Cartname.id,
                                         image: Cartname.image,
                                         title:Cartname.title,
